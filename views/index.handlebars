@@ -1,0 +1,39 @@
+<div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <img src="img/Breaking_Bad.jpg" alt="sfss" class="img">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 mt-4 text-center">
+                <h2>Breaking Bad Universe</h2>
+            </div>
+        </div>
+        
+        <table class="table table-hover table-dark">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col"><span class="heading">Name</span></th>
+                <th scope="col"><span class="heading">Occupation</span></th>
+                <th scope="col"><span class="heading">Nickname</spanclass="heading"></th>
+                <th scope="col"><span class="heading">Status</span></th>
+                <th scope="col"><span class="heading">Actor</span></th>
+              </tr>
+            </thead>
+            <tbody>
+              {{#each characters}}  
+              <tr>
+                <th scope="row">{{ name }}</th>
+                <td>{{occupation}}</td>
+                <td>"{{nickname}}"</td>
+                <td>{{status}}</td>
+                <td>{{portrayed}}</td>
+              </tr>
+              {{/each}}
+            </tbody>
+          </table>
+          
+          
+    </div>
+    
+    <button id="get">Get Characters</button>

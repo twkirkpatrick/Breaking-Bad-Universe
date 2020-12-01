@@ -1,0 +1,19 @@
+table{
+    margin-top: 1rem;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background: radial-gradient(rgb(7, 54, 3), rgb(221, 168, 23));
+}
+
+.heading{
+    color: green;
+}
+
+.img{
+    width: 500px;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+
